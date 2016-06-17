@@ -2,8 +2,8 @@
 
 ## Installation
 
-- Create virtualenv `virtualenv venv`
-- Activate venv `. venv/bin/activate`
+- Create virtualenv `pyvenv venv`
+- Activate venv `source venv/bin/activate`
 - Install packages `pip install -r requirements.txt`
 
 ## Development
