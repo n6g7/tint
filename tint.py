@@ -1,4 +1,5 @@
 from PIL import Image
+import binascii
 import requests
 
 PALETTE_SIZE = 3
@@ -43,5 +44,7 @@ def from_url(url, params={}):
     img = Image.open(data)
     return tint(img)
 
-def hex(colour):
-    return '#%s' % ''.join(map(chr, colour)).encode('hex')
+def to_hex(colour):
+    sum = colour[0] * 16**4 + colour[1] * 16**2 + colour[2]
+    hexed = hex(sum)[2:]
+    return '#%s' % hexed.zfill(6)

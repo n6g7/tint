@@ -1,4 +1,4 @@
-# Tint
+# Tint [![CircleCI](https://circleci.com/gh/n6g7/tint.svg?style=svg)](https://circleci.com/gh/n6g7/tint)
 
 ## Installation
 
@@ -8,4 +8,5 @@
 
 ## Development
 
+- Test `green`
 - Launch local server `heroku local`
