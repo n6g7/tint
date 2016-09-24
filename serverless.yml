@@ -6,6 +6,10 @@ provider:
   stage: prod
   region: eu-west-1
 
+package:
+  exclude:
+    - test
+
 functions:
   tint:
     handler: handler.tint
