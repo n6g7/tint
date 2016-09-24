@@ -3,10 +3,35 @@
   "version": "0.1.0",
   "description": "Image palette as a service",
   "main": "handler.js",
+  "author": "Nathan Gaberel <nathan@gnab.fr>",
+  "license": "MIT",
+  "scripts": {
+    "pretest": "eslint ./",
+    "test": "mocha"
+  },
   "dependencies": {
     "request": "^2.75.0",
     "uuid": "^2.0.3"
   },
-  "author": "Nathan Gaberel <nathan@gnab.fr>",
-  "license": "MIT"
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.6.0",
+    "mocha": "^3.0.2"
+  },
+  "eslintConfig": {
+    "env": {
+      "mocha": true,
+      "node": true
+    },
+    "extends": [
+      "eslint:recommended"
+    ],
+    "globals": {
+      "Promise": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 6,
+      "sourceType": "module"
+    }
+  }
 }

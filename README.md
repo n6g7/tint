@@ -6,6 +6,7 @@
 ## Install
 
 ```
+brew install imagemagick
 npm i -g serverless
 npm i
 ```
