@@ -1,0 +1,12 @@
+{
+  "name": "tint",
+  "version": "0.1.0",
+  "description": "Image palette as a service",
+  "main": "handler.js",
+  "dependencies": {
+    "request": "^2.75.0",
+    "uuid": "^2.0.3"
+  },
+  "author": "Nathan Gaberel <nathan@gnab.fr>",
+  "license": "MIT"
+}

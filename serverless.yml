@@ -1,0 +1,15 @@
+service: tint
+
+provider:
+  name: aws
+  runtime: nodejs4.3
+  stage: prod
+  region: eu-west-1
+
+functions:
+  tint:
+    handler: handler.tint
+    events:
+      - http:
+          path: tint
+          method: post
