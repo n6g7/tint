@@ -7,13 +7,12 @@
 
 ```
 brew install imagemagick
-npm i -g serverless
-npm i
+yarn
 ```
 
 ## How to
 
-- deploy? `sls deploy`
+- deploy? `yarn deploy`
 
 ## Credits
 
