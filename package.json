@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "deploy": "serverless deploy",
-    "pretest": "eslint ./",
+    "pretest": "standard",
     "test": "mocha"
   },
   "dependencies": {
@@ -16,24 +16,15 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^3.6.0",
     "mocha": "^3.0.2",
-    "serverless": "^1.18.0"
+    "serverless": "^1.18.0",
+    "standard": "^10.0.2"
   },
-  "eslintConfig": {
-    "env": {
-      "mocha": true,
-      "node": true
-    },
-    "extends": [
-      "eslint:recommended"
-    ],
-    "globals": {
-      "Promise": true
-    },
-    "parserOptions": {
-      "ecmaVersion": 6,
-      "sourceType": "module"
-    }
+  "standard": {
+    "globals": [
+      "beforeEach",
+      "describe",
+      "it"
+    ]
   }
 }
