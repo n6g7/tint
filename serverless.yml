@@ -8,7 +8,7 @@ provider:
 
 package:
   exclude:
-    - test
+    - **/*.spec.js
 
 functions:
   tint:
