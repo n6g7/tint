@@ -1,3 +1,32 @@
-machine:
-  node:
-    version: 4.3.0
+version: 2
+
+jobs:
+  build:
+    working_directory: ~/tint
+
+    docker:
+      - image: node:8
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - tint-{{ .Branch }}-{{ checksum "package.json" }}
+            - tint-{{ .Branch }}
+            - tint-master-{{ checksum "package.json" }}
+            - tint-master
+
+      - run:
+          name: Install dependencies
+          command: yarn
+
+      - run:
+          name: Run tests
+          command: yarn test
+
+      - save_cache:
+          key: tint-{{ .Branch }}-{{ checksum "package.json" }}
+          paths:
+            - ~/.yarn
+            - ~/tint/node_modules
