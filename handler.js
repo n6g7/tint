@@ -3,6 +3,15 @@ const download = require('./lib/download')
 
 const coloursCount = 3
 
+module.exports.usage = (event, context, cb) => {
+  cb(null, {
+    headers: {
+      'Content-Type': 'text/html'
+    },
+    body: require('./usage')
+  })
+}
+
 module.exports.tint = (event, context, cb) => {
   const { url } = JSON.parse(event.body)
 

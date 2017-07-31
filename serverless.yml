@@ -13,6 +13,12 @@ package:
     - __tests__/**
 
 functions:
+  usage:
+    handler: handler.usage
+    events:
+      - http:
+          path: /
+          method: get
   tint:
     handler: handler.tint
     events:
