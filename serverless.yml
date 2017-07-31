@@ -2,13 +2,15 @@ service: tint
 
 provider:
   name: aws
-  runtime: nodejs4.3
+  runtime: nodejs6.10
+  memorySize: 128
   stage: prod
-  region: eu-west-1
+  region: eu-west-2
+  profile: serverless
 
 package:
   exclude:
-    - tests/**
+    - __tests__/**
 
 functions:
   tint:
