@@ -12,7 +12,7 @@ yarn
 
 ## How to
 
-- deploy? `yarn deploy`
+- deploy? `sls deploy`
 
 ## Credits
 

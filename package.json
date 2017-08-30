@@ -6,7 +6,6 @@
   "author": "Nathan Gaberel <nathan@gnab.fr>",
   "license": "MIT",
   "scripts": {
-    "deploy": "serverless deploy",
     "pretest": "standard",
     "test": "jest"
   },
