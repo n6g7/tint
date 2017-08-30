@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "request": "^2.75.0",
-    "sls-compose": "^0.1.0",
+    "sls-compose": "^0.2.0",
     "uuid": "^2.0.3"
   },
   "devDependencies": {

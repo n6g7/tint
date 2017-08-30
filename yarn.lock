@@ -3136,9 +3136,9 @@ slide@^1.1.5:
   version "1.1.6"
   resolved "https://registry.yarnpkg.com/slide/-/slide-1.1.6.tgz#56eb027d65b4d2dce6cb2e2d32c4d4afc9e1d707"
 
-sls-compose@^0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/sls-compose/-/sls-compose-0.1.0.tgz#247ff66eb79c0eaf5353e7f810c5581082b312d7"
+sls-compose@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/sls-compose/-/sls-compose-0.2.0.tgz#c5d79b6300179d1c9a2ff4f43ca4d97ffdc72e9c"
 
 sntp@1.x.x:
   version "1.0.9"

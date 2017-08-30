@@ -4,6 +4,8 @@ const download = require('./lib/download')
 
 const coloursCount = 3
 
+res.enableCors()
+
 module.exports.usage = (event, context, cb) => {
   cb(
     null,
@@ -21,5 +23,4 @@ module.exports.tint = compose(
       res.json({ colours })
     ))
   }
-
 )

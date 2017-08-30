@@ -25,3 +25,4 @@ functions:
       - http:
           path: tint
           method: post
+          cors: true
