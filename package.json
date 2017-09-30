@@ -12,10 +12,10 @@
   "dependencies": {
     "request": "^2.75.0",
     "sls-compose": "^0.2.0",
-    "uuid": "^2.0.3"
+    "uuid": "^3.1.0"
   },
   "devDependencies": {
-    "jest": "^20.0.4",
+    "jest": "^21.2.1",
     "serverless": "^1.18.0",
     "standard": "^10.0.2"
   },
