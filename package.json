@@ -12,7 +12,6 @@
   "dependencies": {
     "micro": "^9.3.4",
     "request": "^2.75.0",
-    "sls-compose": "^0.2.0",
     "uuid": "^2.0.3"
   },
   "devDependencies": {
