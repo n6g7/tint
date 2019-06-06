@@ -1,5 +1,4 @@
-module.exports = `
-<h1>Tint</h1>
+const response = `<h1>Tint</h1>
 <h2>Usage</h2>
 
 <strong>Request</strong>
@@ -42,3 +41,5 @@ Content-Type: application/json
     }
 ]
 }</code></pre>`
+
+module.exports = (req, res) => res.end(response)

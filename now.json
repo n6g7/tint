@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "name": "tint",
+  "alias": "tint.gnab.fr",
+  "builds": [
+    {
+      "src": "tint.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "usage.js",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "/usage.js" },
+    { "src": "/tint", "dest": "/tint.js" }
+  ]
+}

@@ -1,3 +1,4 @@
+const { json, send } = require('micro')
 const { compose, middlewares, res } = require('sls-compose')
 const colorPalette = require('./lib/palette')
 const download = require('./lib/download')
@@ -24,3 +25,10 @@ module.exports.tint = compose(
     ))
   }
 )
+
+module.exports = async (req, res) => {
+  const { url } = await json(req)
+  const filePath = await download(url)
+  const colours = await colorPalette(filePath, coloursCount)
+  send(res, 200, { colours })
+}
