@@ -8,12 +8,12 @@
       "use": "@now/node"
     },
     {
-      "src": "usage.js",
-      "use": "@now/node"
+      "src": "static/index.html",
+      "use": "@now/static"
     }
   ],
   "routes": [
-    { "src": "/", "dest": "/usage.js" },
+    { "src": "/", "dest": "/static/index.html" },
     { "src": "/tint", "dest": "/tint.js" }
   ]
 }
