@@ -16,7 +16,7 @@
   },
   "devDependencies": {
     "jest": "^20.0.4",
-    "serverless": "^1.18.0",
+    "serverless": "^1.52.1",
     "standard": "^10.0.2"
   },
   "standard": {
