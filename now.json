@@ -2,7 +2,7 @@
   "version": 2,
   "name": "tint",
   "alias": "tint.gnab.fr",
-  "regions": ["cdg", "lhr"],
+  "regions": ["lhr"],
   "builds": [
     {
       "src": "tint.js",
