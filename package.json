@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "micro": "^9.3.4",
-    "request": "^2.88.0",
+    "request": "^2.88.2",
     "uuid": "^3.3.3"
   },
   "devDependencies": {
