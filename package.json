@@ -12,7 +12,7 @@
   "dependencies": {
     "micro": "^9.3.4",
     "request": "^2.88.2",
-    "uuid": "^8.0.0"
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "jest": "^26.0.1",
