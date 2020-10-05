@@ -15,7 +15,7 @@
     "uuid": "^8.3.0"
   },
   "devDependencies": {
-    "jest": "^26.4.2",
+    "jest": "^26.5.0",
     "serverless": "^1.82.0",
     "standard": "^14.3.4"
   },
